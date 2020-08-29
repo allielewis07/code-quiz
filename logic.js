@@ -13,8 +13,8 @@ var initialsEl = document.getElementById("initials");
 var feedbackEl = document.getElementById("feedback");
 var questionTitle = document.getElementById("question-title");
 // sound effects
-var sfxRight = new Audio("assets/sfx/correct.wav");
-var sfxWrong = new Audio("assets/sfx/incorrect.wav");
+var sfxRight = new Audio("04-Web-APIs_02-Homework_Develop_assets_sfx_correct.wav");
+var sfxWrong = new Audio("04-Web-APIs_02-Homework_Develop_assets_sfx_incorrect.wav");
 
 function startQuiz() {
   // hide start screen
