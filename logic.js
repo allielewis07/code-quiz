@@ -137,7 +137,7 @@ var newScore = {
 highscores.push(newScore);
 window.localStorage.setItem("highscores", JSON.stringify(highscores));
     // redirect to next page
-  window.location.href = "/Users/allisonlewis/development/Homework/code-quiz/highscores.html";
+  window.location.href = "highscores.html";
  }
 
 }
