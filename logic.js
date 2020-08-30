@@ -120,7 +120,7 @@ timerEl.textContent =time;
 function saveHighscore() {
   // get value of input box
   var initials = initialsEl.value.trim();
- 
+
   // make sure value wasn't empty
   if (initialsEl !== ""){
 
