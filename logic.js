@@ -137,7 +137,11 @@ var newScore = {
 highscores.push(newScore);
 window.localStorage.setItem("highscores", JSON.stringify(highscores));
     // redirect to next page
+<<<<<<< HEAD
   window.location.href = "highscores.html";
+=======
+  window.location.href = "https://github.com/allielewis07/code-quiz/blob/master/highscores.html";
+>>>>>>> dcdb0fb6fa6c48c3b6d82ee92a40f61aa0615643
  }
 
 }
